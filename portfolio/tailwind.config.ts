@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily:{
+        sans: ["var(--font-bebas-neue)"],
+        manrope: ["var(--font-manrope)"],
+        top: ["var(--font-inter)"]
+      }
     },
   },
   plugins: [],
