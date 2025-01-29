@@ -21,7 +21,7 @@ const manrope = Manrope({
 
 export default function HeroSection() {
   return (
-    <div className={`bg-[#0A0A0A] h-[4834px] border-b-`}>
+    <div className={`border-white border-b lg:h-[750px] h-[1120px]`}>
       <Navbar />
       <div>
         <div className="lg:flex lg:ml-[108px] ml-4 mr-4 mt-20 lg:mt-2">

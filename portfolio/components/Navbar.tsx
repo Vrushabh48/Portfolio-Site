@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -37,7 +38,7 @@ export default function Navbar(){
           <Link href="/" className="block lg:inline-block">
             Work
           </Link>
-          <Link href="/" className="block lg:inline-block">
+          <Link href="/about" className="block lg:inline-block">
             About
           </Link>
           <Link href="/" className="block lg:inline-block">
