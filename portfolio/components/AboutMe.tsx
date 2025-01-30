@@ -16,7 +16,7 @@ const manrope = Manrope({
 
 export default function About() {
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 lg:ml-10 lg:mr-10 ml-4 mr-4 mt-10 gap-10">
+    <div className="grid lg:grid-cols-2 grid-cols-1 lg:ml-16 lg:mr-16 ml-8 mr-8 mt-10 gap-10 mb-12">
       <div className="w-[350px] h-[91px] lg:ml-10 lg:mt-20">
         <h1 className={`${bebasNeue.variable} font-sans text-white lg:text-7xl text-5xl`}>About Me</h1>
       </div>

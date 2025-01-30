@@ -15,7 +15,7 @@ export default function ProjectCard() {
         <Image
           src={photo}
           alt="Basic placeholder image"
-          className="rounded-lg lg:w-[300px] lg:h-[300px] w-[180px] h-[200px]"
+          className="rounded-lg lg:w-[400px] lg:h-[300px] w-[180px] h-[200px]"
         />
       </div>
       <div className="mt-10 ml-12 lg:mt-14 lg:mb-14 lg:w-[576px] w-[400px] h-[350px] flex flex-col justify-between">
