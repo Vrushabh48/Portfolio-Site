@@ -1,17 +1,25 @@
 import About from "@/components/AboutMe";
+import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import ProjectSection from "@/components/ProjectSection";
+import Technical from "@/components/Technical";
 
 export default function Home() {
   return (
-    <div className="bg-[#0A0A0A] lg:h-[4900px] h-[6500px]">
+    <div className="bg-[#0A0A0A] lg:h-[5600px] h-[7400px]">
       <HeroSection />
-      <div className="border-b-2">
+      <div className="border-b-[1px]">
       <ProjectSection />
       </div>
-      <div className="border-b-2">
+      <div className="border-b-[1px]">
       <About />
+      </div>
+      <div className="border-b-[1px]">
+        <Technical />
+      </div>
+      <div className="border-b-[1px]">
+        <Experience />
       </div>
       <div>
         <Footer />

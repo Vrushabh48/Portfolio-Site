@@ -80,12 +80,12 @@ export default function Footer() {
             <Github className="text-lime-400 w-5 h-5" />
           </a>
         </div>
-        <div className={`${manrope.variable} font-manrope text-[#C7C7C7] mt-[375px] items-center`}>
+        <div className={`${manrope.variable} font-manrope text-[#C7C7C7] lg:mt-[287px] mt-[50px] items-center`}>
         © 2025 Vrushabh Patil
         </div>
         </div>
       </div>
-      <div className="lg:mt-20">
+      <div className="lg:mt-20 mt-[150px]">
         <form onSubmit={handleSubmit} className="">
           <div className="">
             <label
