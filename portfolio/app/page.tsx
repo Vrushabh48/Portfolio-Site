@@ -7,21 +7,21 @@ import Technical from "@/components/Technical";
 
 export default function Home() {
   return (
-    <div className="bg-[#0A0A0A] lg:h-[5600px] h-[7400px]">
+    <div className="bg-[#0A0A0A] lg:h-[5600px] h-[7620px]">
       <HeroSection />
-      <div className="border-b-[1px]">
+      <div id="projects" className="border-b-[1px]">
       <ProjectSection />
       </div>
-      <div className="border-b-[1px]">
+      <div id="about" className="border-b-[1px]">
       <About />
       </div>
-      <div className="border-b-[1px]">
+      <div id="skills" className="border-b-[1px]">
         <Technical />
       </div>
-      <div className="border-b-[1px]">
+      <div id="experience" className="border-b-[1px]">
         <Experience />
       </div>
-      <div>
+      <div id="contact">
         <Footer />
       </div>
     </div>

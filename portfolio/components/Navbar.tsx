@@ -33,15 +33,18 @@ export default function Navbar(){
         <div
           className={`${
             isOpen ? "flex" : "hidden"
-          } ${inter.variable} font-top lg:flex flex-col lg:flex-row lg:justify-between lg:w-[207px] h-auto lg:h-[24px] lg:mr-[30px] mr-4 lg:mt-9 mt-28 mb-9 space-y-2 lg:space-y-0`}
+          } ${inter.variable} font-top lg:flex flex-col lg:flex-row lg:justify-between lg:gap-5 lg:w-[207px] h-auto lg:h-[24px] lg:mr-[120px] mr-4 lg:mt-9 mt-28 mb-9 space-y-2 lg:space-y-0`}
         >
-          <Link href="/" className="block lg:inline-block">
-            Work
+          <Link href="#projects" className="block lg:inline-block">
+            Projects
           </Link>
-          <Link href="/about" className="block lg:inline-block">
+          <Link href="#about" className="block lg:inline-block">
             About
           </Link>
-          <Link href="/" className="block lg:inline-block">
+          <Link href="#contact" className="block lg:inline-block">
+            Contact
+          </Link>
+          <Link href="#skills" className="block lg:inline-block">
             Contact
           </Link>
         </div>

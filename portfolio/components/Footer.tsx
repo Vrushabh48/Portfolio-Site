@@ -1,9 +1,10 @@
-"use client"
-import { Github, Linkedin } from "lucide-react";
+"use client";
+import { Github, Instagram, Linkedin } from "lucide-react";
 import { Manrope } from "next/font/google";
 import { Bebas_Neue } from "next/font/google";
 import { useState, ChangeEvent } from "react";
 import emailjs from "@emailjs/browser";
+import { Download } from "lucide-react";
 
 const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
@@ -25,7 +26,9 @@ export default function Footer() {
     message: "",
   });
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
 
@@ -56,36 +59,61 @@ export default function Footer() {
       <div className="w-[350px] h-[91px] lg:ml-10 lg:mt-20 flex flex-col justify-between">
         <div>
           <h1
-            className={`${bebasNeue.variable} font-sans text-white lg:text-7xl text-5xl`}
+            className={`${bebasNeue.variable} font-sans text-white lg:text-7xl text-5xl hover:underline hover:decoration-lime-400 hover:transition-all hover:duration-500 mb-2`}
           >
             Let&apos;s Connect
           </h1>
-          <p className={`${manrope.variable} font-manrope text-[#C7C7C7]`}>Say Hello at <span className="underline decoration-lime-400">vrushabhpatil4801@gmail.com</span></p>
-          <p className={`${manrope.variable} font-manrope text-[#C7C7C7]`}>For More info here is my <span className="underline decoration-lime-400">Resume</span></p>
+          <p className={`${manrope.variable} font-manrope text-[#C7C7C7]`}>
+            Say Hello at{" "}
+            <span className="underline decoration-lime-400">
+              vrushabhpatil4801@gmail.com
+            </span>
+          </p>
+          <p className={`${manrope.variable} font-manrope text-[#C7C7C7]`}>
+            For More info here is my:{" "}
+            <a
+              href="/Resume.pdf"
+              download="Vrushabh_Patil_Resume.pdf"
+              className="underline decoration-lime-400 flex items-center gap-2"
+            >
+              <Download className="w-5 h-5" />
+              Resume
+            </a>
+          </p>
           <div className="flex items-center space-x-4 mt-10">
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-14 h-14 bg-neutral-800 rounded-full flex justify-center items-center"
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-14 h-14 bg-neutral-800 rounded-full flex justify-center items-center"
+            >
+              <Linkedin className="text-lime-400 w-5 h-5" />
+            </a>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-14 h-14 bg-neutral-800 rounded-full flex justify-center items-center"
+            >
+              <Github className="text-lime-400 w-5 h-5" />
+            </a>
+            <a
+          href="https://github.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-14 h-14 bg-neutral-800 rounded-full flex justify-center items-center"
+        >
+          <Instagram className="text-lime-400 w-5 h-5" />
+        </a>
+          </div>
+          <div
+            className={`${manrope.variable} font-manrope text-[#C7C7C7] lg:mt-[287px] mt-[50px] items-center`}
           >
-            <Linkedin className="text-lime-400 w-5 h-5" />
-          </a>
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-14 h-14 bg-neutral-800 rounded-full flex justify-center items-center"
-          >
-            <Github className="text-lime-400 w-5 h-5" />
-          </a>
-        </div>
-        <div className={`${manrope.variable} font-manrope text-[#C7C7C7] lg:mt-[287px] mt-[50px] items-center`}>
-        © 2025 Vrushabh Patil
-        </div>
+            © 2025 Vrushabh Patil
+          </div>
         </div>
       </div>
-      <div className="lg:mt-20 mt-[150px]">
+      <div className="lg:mt-20 mt-[200px]">
         <form onSubmit={handleSubmit} className="">
           <div className="">
             <label

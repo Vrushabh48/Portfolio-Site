@@ -16,7 +16,7 @@ const manrope = Manrope({
 
 export default function Experience() {
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 lg:ml-16 lg:mr-16 ml-8 mr-8 mt-10 gap-10 mb-10">
+    <div className="grid lg:grid-cols-2 grid-cols-1 lg:ml-16 lg:mr-16 ml-8 mr-8 mt-10 gap-10 mb-14">
       <div>
         <h1
           className={`${bebasNeue.variable} font-sans text-white lg:text-7xl text-5xl mt-10 hover:underline hover:decoration-lime-400 hover:transition-all hover:duration-500`}

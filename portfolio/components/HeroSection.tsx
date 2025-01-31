@@ -26,7 +26,7 @@ export default function HeroSection() {
       <div>
         <div className="lg:flex lg:ml-[108px] ml-4 mr-4 mt-20 lg:mt-2">
           <div className="lg:w-[630px] lg:h-[300px] w-[520px] h-[204px] lg:mt-[200px]">
-            <h1 className={`${bebasNeue.variable} text-white lg:text-[7.2rem] text-7xl font-sans`}>
+            <h1 className={`${bebasNeue.variable} text-white lg:text-[7.2rem] text-7xl font-sans hover:underline hover:decoration-lime-400 hover:transition-all hover:duration-1000`}>
               Hi, I am Vrushabh Patil.
             </h1>
             <p className={`${manrope.variable} text-[#C7C7C7] font-manrope`}>

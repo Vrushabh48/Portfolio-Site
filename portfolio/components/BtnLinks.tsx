@@ -1,4 +1,4 @@
-import { Linkedin, Github } from "lucide-react";
+import { Linkedin, Github, Instagram } from "lucide-react";
 import { Manrope } from "next/font/google";
 
 const manrope = Manrope({
@@ -33,6 +33,14 @@ export default function BtnLinks() {
           className="w-14 h-14 bg-neutral-800 rounded-full flex justify-center items-center"
         >
           <Github className="text-lime-400 w-5 h-5" />
+        </a>
+        <a
+          href="https://github.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-14 h-14 bg-neutral-800 rounded-full flex justify-center items-center"
+        >
+          <Instagram className="text-lime-400 w-5 h-5" />
         </a>
       </div>
     </div>
