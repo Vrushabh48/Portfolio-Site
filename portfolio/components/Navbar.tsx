@@ -45,7 +45,7 @@ export default function Navbar(){
             Contact
           </Link>
           <Link href="#skills" className="block lg:inline-block">
-            Contact
+            Skills
           </Link>
         </div>
       </div>

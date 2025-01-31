@@ -1,7 +1,10 @@
+"use client"
+
 import { Manrope } from "next/font/google";
 import { Bebas_Neue } from "next/font/google";
 import quizly from '../public/quizly.png'
 import ProjectCard from "./ProjectCard";
+import Link from "next/link";
 
 const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
@@ -56,10 +59,10 @@ export default function ProjectSection() {
           />
       </div>
       <div className="flex justify-center lg:mt-10 mt-10">
-      <button className={`${manrope.variable} font-manrope flex items-center bg-lime-400 px-6 py-3 rounded-full text-black font-bold`}>
+      <Link href='/projects' className={`${manrope.variable} font-manrope flex items-center bg-lime-400 px-6 py-3 rounded-full text-black font-bold`}>
         Browse all Projects
         <span className="ml-3 w-3 h-3 bg-black rounded-full"></span>
-      </button>
+      </Link>
       </div>
     </div>
   );

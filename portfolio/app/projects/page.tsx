@@ -18,7 +18,7 @@ const manrope = Manrope({
 
 export default function Projects() {
   return (
-    <div className="bg-[#0A0A0A] lg:h-[5000px]">
+    <div className="bg-[#0A0A0A] lg:h-[4900px] h-[6700px]">
       <Navbar />
       <div className="lg:ml-[108px] lg:mr-[108px] ml-6 mr-6 mt-10 lg:mt-1 lg:h-[2700px] h-[3800px]">
         <div className="lg:w-[500px] lg:h-[300px] w-[400px] h-[204px] lg:mt-[100px]">
