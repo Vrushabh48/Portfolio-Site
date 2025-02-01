@@ -82,7 +82,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center space-x-4 mt-10">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/vrushabhpatil48/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-14 h-14 bg-neutral-800 rounded-full flex justify-center items-center"
@@ -90,7 +90,7 @@ export default function Footer() {
               <Linkedin className="text-lime-400 w-5 h-5" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Vrushabh48"
               target="_blank"
               rel="noopener noreferrer"
               className="w-14 h-14 bg-neutral-800 rounded-full flex justify-center items-center"
@@ -98,7 +98,7 @@ export default function Footer() {
               <Github className="text-lime-400 w-5 h-5" />
             </a>
             <a
-          href="https://github.com"
+          href="https://www.instagram.com/vrushabhpatil_48/"
           target="_blank"
           rel="noopener noreferrer"
           className="w-14 h-14 bg-neutral-800 rounded-full flex justify-center items-center"

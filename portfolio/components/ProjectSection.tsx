@@ -3,6 +3,8 @@
 import { Manrope } from "next/font/google";
 import { Bebas_Neue } from "next/font/google";
 import quizly from '../public/quizly.png'
+import medium from '../public/medium.png'
+import codingal from '../public/codingal.png'
 import ProjectCard from "./ProjectCard";
 import Link from "next/link";
 
@@ -49,13 +51,13 @@ export default function ProjectSection() {
             title="Medium Clone"
             description="This is clone of the blogging site Medium. Here user's can publish their own blogs and also read the blogs published by other authors/writers."
             skills=" React.js, Node.js, Hono, TypeScript, Prisma, PostgreSQL"
-            imglink={quizly}
+            imglink={medium}
           />
           <ProjectCard
             title="Codingal Landing Page"
             description="Des"
             skills="React.js, TailwindCSS"
-            imglink={quizly}
+            imglink={codingal}
           />
       </div>
       <div className="flex justify-center lg:mt-10 mt-10">

@@ -3,6 +3,11 @@ import ProjectCard from "@/components/ProjectCard";
 import { Bebas_Neue } from "next/font/google";
 import { Manrope } from "next/font/google";
 import quizly from "../../public/quizly.png";
+import medium from '../../public/medium.png'
+import codingal from '../../public/codingal.png'
+import staycation from '../../public/staycation.png'
+import swipe from '../../public/swipe.png'
+import rentify from '../../public/rentify.png'
 
 const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
@@ -48,31 +53,31 @@ export default function Projects() {
             title="Medium Clone"
             description="This is clone of the blogging site Medium. Here user's can publish their own blogs and also read the blogs published by other authors/writers."
             skills=" React.js, Node.js, Hono, TypeScript, Prisma, PostgreSQL"
-            imglink={quizly}
+            imglink={medium}
           />
           <ProjectCard
             title="Rentify"
             description="Des"
             skills="Next.js, PostgresSQL, Prisma"
-            imglink={quizly}
+            imglink={rentify}
           />
           <ProjectCard
             title="Swipe Landing Page"
             description="Des"
             skills="React.js, TailwindCSS"
-            imglink={quizly}
+            imglink={swipe}
           />
           <ProjectCard
             title="Codingal Landing Page"
             description="Des"
             skills="React.js, TailwindCSS"
-            imglink={quizly}
+            imglink={codingal}
           />
           <ProjectCard
             title="StayCation Landing Page"
             description="Des"
             skills="React.js, TailwindCSS"
-            imglink={quizly}
+            imglink={staycation}
           />
         </div>
       </div>
