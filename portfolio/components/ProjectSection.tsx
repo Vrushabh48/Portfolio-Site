@@ -7,6 +7,7 @@ import medium from '../public/medium.png'
 import codingal from '../public/codingal.png'
 import ProjectCard from "./ProjectCard";
 import Link from "next/link";
+import paytm from '../public/paytm.png'
 
 const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
@@ -39,24 +40,32 @@ export default function ProjectSection() {
             description="Quizly is a Quiz application where User's are able to create a quiz and attempt the quiz. A realtime Leaderboard keeps the track of users who have attempted the specific Quiz along with their scores of that particular quiz. The score for each test is displayed right after submitting the test."
             skills="React.js, TypeScript, Hono, Prisma, PostgreSQL, Tailwind CSS"
             imglink={quizly}
+            livelink="https://quizly-delta.vercel.app/"
+            gitlink="https://github.com/Vrushabh48/quizly"
           />
           <ProjectCard
             title="Paytm"
             description="A Payment Application built with Next.js. Utilised the Next-Auth for the authentication and implemented Webhooks for the banks to let Users add money to the wallet from their Bank. The registered users are able to transfer the amount to another user in the database."
             skills=" Next.Js, Node.js, Express.js, Postgres, Prisma"
-            imglink={quizly}
+            imglink={paytm}
+            livelink="https://github.com/Vrushabh48/Paytm"
+            gitlink="https://github.com/Vrushabh48/Paytm"
           />
           <ProjectCard
             title="Medium Clone"
             description="This is clone of the blogging site Medium. Here user's can publish their own blogs and also read the blogs published by other authors/writers."
             skills=" React.js, Node.js, Hono, TypeScript, Prisma, PostgreSQL"
             imglink={medium}
+            livelink="https://medium-blog-site-gray.vercel.app/"
+            gitlink="https://github.com/Vrushabh48/medium-blog-site"
           />
           <ProjectCard
             title="Codingal Landing Page"
             description="Landing Page Design of Codingal a YC Backed Startup."
             skills="React.js, TailwindCSS"
             imglink={codingal}
+            livelink="https://codingal-landing-page.vercel.app/"
+            gitlink="https://github.com/Vrushabh48/Codingal-Landing-Page"
           />
       </div>
       <div className="flex justify-center lg:mt-10 mt-10">
