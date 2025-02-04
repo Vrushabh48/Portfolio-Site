@@ -21,7 +21,7 @@ export default function ProjectCard({title, description, imglink, skills}: Props
         <Image
           src={imglink}
           alt="Basic placeholder image"
-          className="rounded-lg lg:w-[400px] lg:h-[300px] w-[280px] h-[200px]"
+          className="rounded-lg lg:w-[400px] lg:h-[300px] w-[280px] h-[200px] hover:scale-105"
         />
       </div>
       <div className="mt-10 ml-12 lg:mt-14 lg:mb-14 lg:w-[576px] w-[400px] h-[350px] flex flex-col justify-between">

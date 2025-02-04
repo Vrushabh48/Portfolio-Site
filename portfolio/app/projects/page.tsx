@@ -8,6 +8,7 @@ import codingal from '../../public/codingal.png'
 import staycation from '../../public/staycation.png'
 import swipe from '../../public/swipe.png'
 import rentify from '../../public/rentify.png'
+import paytm from '../../public/paytm.png'
 
 const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
@@ -47,7 +48,7 @@ export default function Projects() {
             title="Paytm"
             description="A Payment Application built with Next.js. Utilised the Next-Auth for the authentication and implemented Webhooks for the banks to let Users add money to the wallet from their Bank. The registered users are able to transfer the amount to another user in the database."
             skills=" Next.Js, Node.js, Express.js, Postgres, Prisma"
-            imglink={quizly}
+            imglink={paytm}
           />
           <ProjectCard
             title="Medium Clone"
@@ -57,25 +58,25 @@ export default function Projects() {
           />
           <ProjectCard
             title="Rentify"
-            description="Des"
+            description="Rentify is a Product renting applications where users can list their products out for rent and get paid for it."
             skills="Next.js, PostgresSQL, Prisma"
             imglink={rentify}
           />
           <ProjectCard
             title="Swipe Landing Page"
-            description="Des"
+            description="Landing Page implementation of Swipe."
             skills="React.js, TailwindCSS"
             imglink={swipe}
           />
           <ProjectCard
             title="Codingal Landing Page"
-            description="Des"
+            description="Landing Page implementation of Codingal."
             skills="React.js, TailwindCSS"
             imglink={codingal}
           />
           <ProjectCard
             title="StayCation Landing Page"
-            description="Des"
+            description="Landing Page implementation of Staycation."
             skills="React.js, TailwindCSS"
             imglink={staycation}
           />

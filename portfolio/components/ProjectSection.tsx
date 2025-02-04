@@ -55,7 +55,7 @@ export default function ProjectSection() {
           />
           <ProjectCard
             title="Codingal Landing Page"
-            description="Des"
+            description="Landing Page Design of Codingal a YC Backed Startup."
             skills="React.js, TailwindCSS"
             imglink={codingal}
           />
