@@ -24,14 +24,13 @@ export default function HeroSection() {
     <div className={`border-white border-b lg:h-[750px] h-[1120px]`}>
       <Navbar />
       <div>
-        <div className="lg:flex lg:ml-[108px] ml-4 mr-4 mt-20 lg:mt-2">
-          <div className="lg:w-[630px] lg:h-[300px] w-[520px] h-[204px] lg:mt-[200px]">
+        <div className="lg:flex lg:ml-[108px] ml-4 mr-8 mt-20 lg:mt-2">
+          <div className="lg:w-[630px] lg:h-[300px] w-[420px] h-[204px] lg:mt-[200px]">
             <h1 className={`${bebasNeue.variable} text-white lg:text-[7.2rem] text-7xl font-sans hover:underline hover:decoration-lime-400 hover:transition-all hover:duration-1000`}>
               Hi, I am Vrushabh Patil.
             </h1>
             <p className={`${manrope.variable} text-[#C7C7C7] font-manrope`}>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
-              similique dolor.
+              A skilled Full Stack Developer with interest in developing web applications and solving real world problems.
             </p>
             <BtnLinks />
           </div>
@@ -41,7 +40,7 @@ export default function HeroSection() {
               alt="Basic placeholder image"
               width={430}
               height={490}
-              className="rounded-lg"
+              className="rounded-lg hover:scale-105 ease-in duration-300"
             />
           </div>
         </div>

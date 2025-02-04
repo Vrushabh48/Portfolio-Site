@@ -30,8 +30,7 @@ export default function ProjectSection() {
           Projects
         </h1>
         <p className={`${manrope.variable} text-[#C7C7C7] font-manrope`}>
-          Here are some of the selected projects that showcase my passion for
-          front-end development.
+          Here are some of the selected projects that showcase my passion for development.
         </p>
       </div>
       <div className="flex flex-col justify-between gap-[120px]">

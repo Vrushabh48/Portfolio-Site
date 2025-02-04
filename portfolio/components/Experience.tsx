@@ -27,16 +27,25 @@ export default function Experience() {
       <div className="lg:w-[500px] lg:mt-10 mb-10">
         <div className="lg:w-[600px] lg:h-[128px]">
           <div className="lg:flex flex-col justify-between">
-            <h1 className={`text-white ${manrope.variable} font-manrope text-2xl`}>Full Stack Developer {"(Project Based)"}</h1>
-            <p className={`text-lime-300 ${manrope.variable} font-manrope mt-2`}>September 2024 - December 2024</p>
+            <h1
+              className={`text-white ${manrope.variable} font-manrope text-2xl`}
+            >
+              Full Stack Developer {"(Project Based)"}
+            </h1>
+            <p
+              className={`text-lime-300 ${manrope.variable} font-manrope mt-2`}
+            >
+              September 2024 - December 2024
+            </p>
           </div>
           <div className="mt-5">
             <p
               className={`${manrope.variable} font-manrope text-[#C7C7C7] text-lg`}
             >
-              I am always looking to add more skills to my skill set. The
-              Passion and interest on tech drives me through to get my hands on
-              more and more skills.{" "}
+              Designed and developed a GenAI model for generating marketing
+              content related to a technology. Contributed in developing the
+              application by integrating API&apos;s and developing an
+              interactive interface for the application.{" "}
             </p>
           </div>
         </div>

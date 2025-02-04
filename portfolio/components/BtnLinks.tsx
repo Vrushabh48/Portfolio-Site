@@ -2,17 +2,19 @@ import { Linkedin, Github, Instagram } from "lucide-react";
 import { Manrope } from "next/font/google";
 
 const manrope = Manrope({
-    subsets: ["latin"],
+  subsets: ["latin"],
   weight: ["400"],
   variable: "--font-manrope",
-})
+});
 
 export default function BtnLinks() {
   return (
     <div className="flex items-center space-x-4 bg-[#0A0A0A] mt-6">
       {/* Contact Button */}
-      <button className={`${manrope.variable} font-manrope flex items-center bg-lime-400 px-6 py-3 rounded-full text-black font-bold`}>
-        CONTACT ME
+      <button
+        className={`${manrope.variable} text-base text-[12px] font-manrope flex items-center bg-lime-400 px-6 py-3 rounded-full text-black font-bold`}
+      >
+        <a href="#contact">CONTACT ME</a>
         <span className="ml-3 w-3 h-3 bg-black rounded-full"></span>
       </button>
 

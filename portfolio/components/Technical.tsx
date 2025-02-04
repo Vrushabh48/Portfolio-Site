@@ -30,16 +30,16 @@ export default function Technical() {
           I am always looking to add more skills to my skill set. The Passion and interest on tech drives me through to get my hands on more and more skills.{" "}
         </p>
         <div className="flex flex-col justify-between">
-          <div className="flex gap-4 mt-5">
+          <div className="flex gap-4 mt-5 lg:mr-0 mr-[45px]">
           <Skill Skill="JavaScript" />
           <Skill Skill="TypeScript" />
-          <Skill Skill="TailwindCSS" />
+          <Skill Skill="Tailwind" />
           </div>
-          <div className="flex gap-4 mt-5">
-          <Skill Skill="React.js" />
-          <Skill Skill="Next.js" />
-          <Skill Skill="Node.js" />
-          <Skill Skill="Express.js" />
+          <div className="flex gap-2 mt-5">
+          <Skill Skill="ReactJS" />
+          <Skill Skill="NextJS" />
+          <Skill Skill="NodeJS" />
+          <Skill Skill="ExpressJS" />
           </div>
           <div className="flex gap-4 mt-5">
           <Skill Skill="PostgresSQL" />

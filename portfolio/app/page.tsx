@@ -7,7 +7,7 @@ import Technical from "@/components/Technical";
 
 export default function Home() {
   return (
-    <div className="bg-[#0A0A0A] lg:h-[5700px] h-[7620px]">
+    <div className="bg-[#0A0A0A] lg:h-[5700px] h-[7820px]">
       <HeroSection />
       <div id="projects" className="border-b-[1px]">
       <ProjectSection />
