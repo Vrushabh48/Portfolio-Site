@@ -24,3 +24,4 @@ const Auth = (props: SVGProps<SVGSVGElement>) => (
 );
 
 export { Auth };
+    

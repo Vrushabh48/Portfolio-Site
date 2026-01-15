@@ -25,7 +25,7 @@ export const DATA = {
   description:
     "I build production-ready MVPs for startups, fast and secure.",
   summary:
-    "I help startups and founders turn ideas into reliable, production-ready backend systems—so you can launch faster and scale without rebuilding everything later. I take care of the entire backend foundation: user authentication, APIs, data structure, and system reliability. My work is focused on building MVPs that are secure, scalable, and easy to extend as your product and users grow. If you want to move fast without running into technical roadblocks later, I can help you get there.",
+    "I help startups and founders turn ideas into reliable, production-ready systems—so you can launch faster and scale without rebuilding everything later. I take care of the entire backend foundation: user authentication, APIs, data structure, and system reliability. My work is focused on building MVPs that are secure, scalable, and easy to extend as your product and users grow. If you want to move fast without running into technical roadblocks later, I can help you get there.",
   avatarUrl: "/me.png",
   skills: [
     { name: "React", icon: ReactLight },
@@ -43,6 +43,12 @@ export const DATA = {
     { name: "Kubernetes", icon: Kubernetes },
     { name: "Java", icon: Java },
     { name: "C++", icon: Csharp },
+  ],
+  services: [
+    {name: "MVP Backend Development", description: "I help founders turn ideas into production-ready MVP backends—handling core logic, authentication, APIs, and data design so your product is ready for real users and future growth."},
+    {name: "Custom Web Application Development", description: "End-to-end development of custom web applications tailored to your business needs, with a strong focus on performance, security, and scalability."},
+    {name: "Backend Systems & APIs", description: "Design and implementation of secure, scalable backend systems, including user authentication, role management, and API development for web apps."},
+    {name: "Landing Page & Frontend Development", description: "High-quality, responsive landing pages and frontend interfaces for startups, brands, and creators—built to clearly communicate value and convert users."}
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
