@@ -18,7 +18,7 @@ import { Auth } from "@/components/ui/svgs/auth";
 
 export const DATA = {
   name: "Vrushabh Patil",
-  initials: "DV",
+  initials: "VP",
   url: "https://vrushabh.site",
   location: "Pune, India",
   locationLink: "https://www.google.com/maps/place/Pune",
